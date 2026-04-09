@@ -1,6 +1,6 @@
 describe('Kişisel Portfolyo Testleri', () => {
   beforeEach(() => {
-    cy.visit('http://localhost:5173');
+    cy.visit('https://kisisel-web-sitem-iota.vercel.app/');
   });
 
   it('Dil değiştirme mekanizması çalışıyor mu?', () => {
